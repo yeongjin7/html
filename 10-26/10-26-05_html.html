@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>기본 구조를 가진 표</title>
+    </head>
+
+        <body>
+            <h3>기본 구조 테이블</h3>
+                <hr>
+       
+                    <table border="1">
+                        <caption> 1학기 성적표</caption>
+                            <thead>
+                                <tr><th>이름</th><th>HTML</th><th>CSS</th></tr> 
+                            </thead>
+        
+                            <tfoot>
+                                <tr><th>합</th><th>225</th><th>230</th></tr>
+                            </tfoot>
+        
+                            <tbody>
+                                <tr><th>황기태</th><th>80</th><th>70</th></tr>
+                                <tr><th>이재문</th><th>95</th><th>99</th></tr>
+                                <tr><th>이병은</th><th>40</th><th>61</th></tr>
+                            </tbody>
+                    </table>
+
+
+                <hr>
+
+
+
+                    <table border="1">
+                        <caption> 1학기 성적표</caption>
+                            <thead>
+                                <tr><th>번호</th><th>이름</th><th>국어</th><th>영어</th><th>수학</th><th>합계</th></tr> 
+                            </thead>
+        
+                            <tfoot>
+                                <tr><th>평균</th><th>-</th><th>75</th><th>75</th><th>75</th><th>1350</th></tr>
+                            </tfoot>
+        
+                            <tbody>
+                                <tr><th>1</th><th>김영진</th><th>50</th><th>50</th><th>50</th><th>150</th></tr>
+                                <tr><th>2</th><th>박태민</th><th>60</th><th>60</th><th>60</th><th>180</th></tr>
+                                <tr><th>3</th><th>오승헌</th><th>70</th><th>70</th><th>70</th><th>210</th></tr>
+                                <tr><th>4</th><th>김선호</th><th>80</th><th>80</th><th>80</th><th>240</th></tr>
+                                <tr><th>5</th><th>심나래</th><th>90</th><th>90</th><th>90</th><th>270</th></tr>
+                                <tr><th>6</th><th>김은진</th><th>100</th><th>100</th><th>100</th><th>300</th></tr>
+                            </tbody>
+                    </table>
+
+                <hr>
+
+            <h2>표에 이미지 삽입</h2>
+                <hr>
+                        <table border="1">
+                            <caption> <b>좋아하는 과일</b> </caption>
+                                <tbody>
+                                    <tr><th><img src="img/apple.png"></th><th><img src="img/banana.png"></th><th><img src="img/mango.png"></th></tr>
+                                </tbody>
+                        </table>        
+
+                <hr>
+
+            <h3>행병합 테이블</h3>
+                <hr>
+                        <table border="1">
+                            <tr>
+                                <td rowspan="3">줄 3개<br>병합</td><td>1row 2col</td></td>
+                            </tr>
+                            <tr>
+                                <td>2row 2col</td>
+                            </tr>
+                            <tr>
+                                <td>3row 2col</td>
+                            </tr>
+
+
+                        </table>    
+        
+                
+            <h3>열병합 테이블</h3>
+                <hr>
+                        <table border="1">
+                            <tr>
+                                <td colspan="3">열 3개병합</td>
+                            </tr>
+                            <tr>
+                                <td>2row 1col</td><td>2row 2col</td>
+                            </tr>
+                        </table>
+
+
+                <hr>    
+        
+
+            <h3>표의 구조적인 표현</h3>
+                    
+                        <table border="1">
+                            <caption> 과목별 추천도서 </caption>
+                            
+                                <thead>
+                                    <tr><td>과목</td><td>책제목</td><td>저자</td><td>출판사</td></tr>
+                                </thead>
+                            
+                                <tfoot>
+                                    <tr><td>합계</td> <td colspan="3"> 3권</td></tr>
+                                </tfoot>
+                            
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3"> 웹프로그래밍</td> <td>HTML5 웹프로그래밍 입문</td><td>임순범,박희민</td><td>생능</td>
+                                        <tr><td>소셜미디어 시대의 인터넷 이해</td><td>최윤철,임순범</td><td>생능</td></tr>
+                                        <tr><td>What is HTML5?</td><td>B.McLaughlin</td><td>O'Reilly</td></tr>
+                                    </tr>
+                                </tbody>
+                        </table>
+                
+        
+        
+        
+        </body>
+
+
+</html>
